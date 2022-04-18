@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C114B253280D9E6A00DDA7EF /* Reminder.swift in Sources */ = {isa = PBXBuildFile; fileRef = C114B252280D9E6A00DDA7EF /* Reminder.swift */; };
 		C1157563280D9CC800D5D73A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1157562280D9CC800D5D73A /* AppDelegate.swift */; };
 		C1157565280D9CC800D5D73A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1157564280D9CC800D5D73A /* SceneDelegate.swift */; };
 		C1157567280D9CC800D5D73A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1157566280D9CC800D5D73A /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C114B252280D9E6A00DDA7EF /* Reminder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reminder.swift; sourceTree = "<group>"; };
 		C115755F280D9CC800D5D73A /* Today.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Today.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1157562280D9CC800D5D73A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C1157564280D9CC800D5D73A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C114B251280D9E5C00DDA7EF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C114B252280D9E6A00DDA7EF /* Reminder.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		C1157556280D9CC800D5D73A = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		C1157561280D9CC800D5D73A /* Today */ = {
 			isa = PBXGroup;
 			children = (
+				C114B251280D9E5C00DDA7EF /* Models */,
 				C1157562280D9CC800D5D73A /* AppDelegate.swift */,
 				C1157564280D9CC800D5D73A /* SceneDelegate.swift */,
 				C1157566280D9CC800D5D73A /* ViewController.swift */,
@@ -141,6 +152,7 @@
 				C1157567280D9CC800D5D73A /* ViewController.swift in Sources */,
 				C1157563280D9CC800D5D73A /* AppDelegate.swift in Sources */,
 				C1157565280D9CC800D5D73A /* SceneDelegate.swift in Sources */,
+				C114B253280D9E6A00DDA7EF /* Reminder.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
